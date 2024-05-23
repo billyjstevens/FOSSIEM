@@ -39,30 +39,30 @@ Access the Services
 - Wazuh: http://localhost:5601 (default user: admin, default password: admin)
 
 **Configuration**
-Fluentd
-Configuration: fluentd/fluent.conf
+- Fluentd \
+Configuration: fluentd/fluent.conf \
 Dockerfile: fluentd/Dockerfile
-Loki
-Configuration: loki/loki-config.yaml
+- Loki \
+Configuration: loki/loki-config.yaml \
 Dockerfile: loki/Dockerfile
-Kafka
-Configuration: kafka/kafka-config.yaml
+- Kafka \
+Configuration: kafka/kafka-config.yaml \
 Dockerfile: kafka/Dockerfile
-Wazuh
-Configuration: wazuh/wazuh-config.yaml
+- Wazuh \
+Configuration: wazuh/wazuh-config.yaml \
 Dockerfile: wazuh/Dockerfile
-Grafana
-Configuration: grafana/grafana.ini
+- Grafana \
+Configuration: grafana/grafana.ini \
 Dockerfile: grafana/Dockerfile
-Metron
-Configuration: metron/metron-config.yaml
+- Metron \
+Configuration: metron/metron-config.yaml \
 Dockerfile: metron/Dockerfile
-Extensibility
+- Extensibility \
 This stack is designed to be highly extensible. You can add additional tools or modify configurations to suit your specific needs.
 
-Contributing
+**Contributing** \
 Contributions are welcome! Please open an issue or submit a pull request.
 
-License
+**License** \
 This project is licensed under the MIT License.
 
