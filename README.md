@@ -25,10 +25,10 @@ Welcome to FOSSIEM, the ultimate open-source SIEM stack designed for comprehensi
    cd FOSSIEM
 Start the Stack
 
-sh
-Copy code
-docker-compose up -d
-Access the Services
+   ```sh
+   Copy code
+   docker-compose up -d
+   Access the Services
 
 Grafana: http://localhost:3000 (default user: admin, default password: admin)
 Wazuh: http://localhost:5601 (default user: admin, default password: admin)
