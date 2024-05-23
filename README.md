@@ -1,6 +1,6 @@
-# Ultimate Open-Source SIEM Stack
+# FOSSIEM: Free and Open Source Security Information and Event Management Stack
 
-Welcome to the ultimate open-source SIEM stack, designed for effective security monitoring and incident response. This stack includes critical components for log management, real-time event correlation, user behavior analytics, and customizable dashboards. 
+Welcome to FOSSIEM, the ultimate open-source SIEM stack designed for comprehensive security monitoring and incident response. FOSSIEM integrates critical components for robust log management, real-time event correlation, user behavior analytics, and customizable dashboards. This stack leverages entirely free and open-source tools to ensure accessibility and extensibility for diverse environments and use cases. Whether you're a security professional or an IT enthusiast, FOSSIEM provides the necessary tools to enhance your security posture and streamline incident response efforts.
 
 ## Components
 
@@ -21,8 +21,8 @@ Welcome to the ultimate open-source SIEM stack, designed for effective security 
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/yourusername/ultimate-siem.git
-   cd ultimate-siem
+   git clone https://github.com/billyjstevens/FOSSIEM.git
+   cd FOSSIEM
 Start the Stack
 
 sh
