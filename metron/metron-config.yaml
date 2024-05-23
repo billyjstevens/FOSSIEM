@@ -1,0 +1,20 @@
+parser:
+topologies:
+bro: bro-parser
+snort: snort-parser
+yaf: yaf-parser
+
+enrichment:
+topologies:
+bro: enrich-bro
+snort: enrich-snort
+yaf: enrich-yaf
+
+indexing:
+writer: solr
+index: metron
+
+alerting:
+rules:
+- name: suspicious-activity
+condition: "source.type == 'bro' && destination.ip == '192.168.1.1'"

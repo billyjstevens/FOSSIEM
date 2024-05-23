@@ -1,0 +1,19 @@
+<ossec_config>
+<global>
+<email_notification>no</email_notification>
+<smtp_server>smtp.example.com</smtp_server>
+<email_from>wazuh@example.com</email_from>
+<email_to>you@example.com</email_to>
+<logall>yes</logall>
+<log_format>json</log_format>
+</global>
+
+  <wodle name="aws-s3">
+    <disabled>no</disabled>
+    <interval>1h</interval>
+    <bucket>my-bucket</bucket>
+    <prefix>logs/</prefix>
+    <access_key_id>AKIA...</access_key_id>
+    <secret_access_key>...</secret_access_key>
+  </wodle>
+</ossec_config>
