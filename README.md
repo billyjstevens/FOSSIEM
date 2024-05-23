@@ -23,16 +23,22 @@ Welcome to FOSSIEM, the ultimate open-source SIEM stack designed for comprehensi
    ```sh
    git clone https://github.com/billyjstevens/FOSSIEM.git
    cd FOSSIEM
+   ```
 Start the Stack
 
+ 
    ```sh
-   Copy code
    docker-compose up -d
-   Access the Services
+   ```
 
-Grafana: http://localhost:3000 (default user: admin, default password: admin)
-Wazuh: http://localhost:5601 (default user: admin, default password: admin)
-Configuration
+
+Access the Services
+
+
+- Grafana: http://localhost:3000 (default user: admin, default password: admin)
+- Wazuh: http://localhost:5601 (default user: admin, default password: admin)
+
+**Configuration**
 Fluentd
 Configuration: fluentd/fluent.conf
 Dockerfile: fluentd/Dockerfile
@@ -59,3 +65,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 License
 This project is licensed under the MIT License.
+
